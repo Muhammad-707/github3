@@ -10,9 +10,9 @@
 
 <body>
 
-    <div class="flex items-center justify-around py-10">
+    <div class="flex items-center justify-between md:w-auto w-[80%] m-auto md:justify-around py-5 md:py-10">
         <img src="../image/Avion.png" alt="">
-        <div class="flex gap-[42px]">
+        <div class="md:flex hidden gap-[42px]">
             <p class="text-[#726E8D] text-[16px]">Plant pots</p>
             <p class="text-[#726E8D] text-[16px]">Ceramics</p>
             <p class="text-[#726E8D] text-[16px]">Tables</p>
@@ -28,9 +28,9 @@
         </div>
     </div>
 
-    <div class="flex gap-[65px] mb-20 items-center">
-        <img src="../image/Image Left.png" alt="">
-        <div class="">
+    <div class="md:flex gap-[65px] mb-20 items-center">
+        <img class="md:w-auto w-full md:mb-0 mb-[29px]" src="../image/Image Left.png" alt="">
+        <div class="md:ml-0 ml-[25px]">
             <h1 class="text-[#2A254B] text-[37px] font-medium mb-[15px]">The Dandy Chair</h1>
             <p class="text-[#12131A] text-2xl font-medium mb-[45px]">£250</p>
             <p class="text-[#505977] text-[16px] font-medium mb-5">A timeless design, with premium materials features as
@@ -56,19 +56,20 @@
                     <p class="text-[#505977] text-[16px] font-medium mb-[13px]">50cm</p>
                 </div>
             </div>
-            <div class="flex items-center gap-[170px] mb-[42px]">
+            <div class="md:flex items-center gap-[170px] mb-[42px]">
                 <div class="flex gap-[22px] items-center">
                     <p class="text-[#505977] text-[18px] font-medium mb-[13px]">Amount:</p>
                     <input class="bg-[#F9F9F9] px-5 py-3" type="number" placeholder="1">
                 </div>
-                <button class="bg-[#2A254B] text-white px-[33px] py-3">Add to cart</button>
+                <button class="bg-[#2A254B] md:w-auto md:mt-0 mt-4 w-[90%] text-white px-[33px] py-3">Add to
+                    cart</button>
             </div>
         </div>
     </div>
 
-    <div class="w-[90%] m-auto mb-[135px]">
+    <div class="w-[90%] m-auto mb-[90px] md:mb-[135px]">
         <h2 class="text-[#2A254B] text-[32px] font-medium mb-[33px]">You might also like</h2>
-        <div class="grid gap-10 mb-[35px] grid-cols-4">
+        <div class="grid gap-10 mb-[35px] grid-cols-2 md:grid-cols-4">
             <div class="">
                 <img class="w-full mb-[25px]" src="../image/Photo (2).png" alt="">
                 <p class="text-[#2A254B] text-xl font-medium">The Dandy chair</p>
@@ -90,13 +91,14 @@
                 <p class="text-[#2A254B] text-[16px] font-medium">£399</p>
             </div>
         </div>
-        <button class="text-[#2A254B] text-[16px] bg-[#F9F9F9] px-8 py-4 font-medium ml-[600px]">View
+        <button
+            class="text-[#2A254B] md:w-auto w-full text-[16px] bg-[#F9F9F9] px-8 py-4 font-medium md:ml-[600px]">View
             collection</button>
     </div>
 
     <div class="mb-[52px] w-[90%] m-auto">
         <p class="text-[#2A254B] text-xl text-center font-medium mb-[51px]">What makes our brand different</p>
-        <div class="grid grid-cols-4 mb-[86px] gap-[59px]">
+        <div class="grid md:grid-cols-4 md:ml-0 ml-6 mb-[86px] gap-[59px]">
             <div class="">
                 <img class="mb-4" src="../image/Delivery.png" alt="">
                 <h4 class="text-[#2A254B] text-xl font-medium mb-2">Next day as standard</h4>
@@ -127,30 +129,31 @@
     </div>
 
     <div class="bg-[#F9F9F9] pt-[55px] pb-[65px]">
-        <div class="w-[90%] pb-[54px] m-auto text-center bg-white pt-[68px] text-[#2A254B] font-medium">
+        <div class="w-[90%] pb-[30px] md:pb-[54px] m-auto text-start md:text-center bg-white pt-[30px] md:pt-[68px] text-[#2A254B] font-medium">
             <h1 class="text-4xl mb-4">Join the club and get the benefits</h1>
-            <p class="text-[16px] mb-[72px]">Sign up for our newsletter and receive exclusive offers on new <br>
+            <p class="text-[12px] md:text-[16px] mb-[72px]">Sign up for our newsletter and receive exclusive offers on
+                new <br>
                 ranges, sales, pop up stores and more</p>
-            <div class="flex w-[472px] items-center ml-[450px]">
-                <input class="text-[16px] px-5 py-[17px] pr-[130px] bg-[#F9F9F9]" type="email"
+            <div class="flex w-full md:w-[472px] items-center md:ml-[450px]">
+                <input class="text-[16px] px-5 py-[17px] md:pr-[130px] bg-[#F9F9F9]" type="email"
                     placeholder="your@email.com">
-                <button class="bg-[#2A254B] text-white px-8 py-4 ">Sugn up</button>
+                <button class="bg-[#2A254B] text-white px-5 md:px-8 py-4 ">Sugn up</button>
             </div>
         </div>
     </div>
 
     <div class="bg-[#2A254B] text-white font-medium py-15">
-        <div class="flex w-[90%] m-auto justify-between mb-4 pb-[67px] border-b-2 border-b-[#4E4D93]">
-            <div class="">
+        <div class="md:flex grid grid-cols-2 w-[90%] m-auto justify-between mb-3 md:mb-4 pb-[67px] border-b-2 border-b-[#4E4D93]">
+            <div class="md:mb-0 mb-8">
                 <img class="mb-6" src="../image/Avion (1).png" alt="">
                 <p class="text-[14px] mb-3.5">21 New York Street</p>
                 <p class="text-[14px] mb-3.5">New York City</p>
                 <p class="text-[14px] mb-3.5">United States of America</p>
                 <p class="text-[14px] mb-3.5">432 34</p>
             </div>
-            <div class="">
+            <div class="md:mb-0 mb-8">
                 <p class="text-[14px] mb-[22px]">Social links</p>
-                <div class="flex items-center gap-6">
+                <div class="md:flex grid grid-cols-3 items-center gap-6">
                     <img src="../image/Vector (53).png" alt="">
                     <img src="../image/Vector (54).png" alt="">
                     <img src="../image/Vector (55).png" alt="">
@@ -159,7 +162,7 @@
                     <img src="../image/Vector (58).png" alt="">
                 </div>
             </div>
-            <div class="">
+            <div class="md:mb-0 mb-8">
                 <h3 class="text-[16px] mb-3">Menu</h3>
                 <p class="mb-3 text-[14px]">New arrivals</p>
                 <p class="mb-3 text-[14px]">Best sellers</p>
@@ -167,7 +170,7 @@
                 <p class="mb-3 text-[14px]">Popular this week</p>
                 <p class="mb-3 text-[14px]">All products</p>
             </div>
-            <div class="">
+            <div class="md:inline hidden">
                 <h3 class="text-[16px] mb-3">Categories</h3>
                 <p class="mb-3 text-[14px]">NCrockery</p>
                 <p class="mb-3 text-[14px]">Furniture</p>
@@ -176,7 +179,7 @@
                 <p class="mb-3 text-[14px]">Chairs</p>
                 <p class="mb-3 text-[14px]">Crockery</p>
             </div>
-            <div class="">
+            <div class="md:mb-0 mb-8">
                 <h3 class="text-[16px] mb-3">Our company</h3>
                 <p class="mb-3 text-[14px]">About us</p>
                 <p class="mb-3 text-[14px]">Vacancies</p>
@@ -185,7 +188,7 @@
                 <p class="mb-3 text-[14px]">Returns policy</p>
             </div>
         </div>
-        <p class="text-white w-[90%] m-auto text-[14px] mask-b-from-neutral-400">Copyright 2022 Avion LTD</p>
+        <p class="text-white md:text-start text-center w-[90%] m-auto text-[14px] mask-b-from-neutral-400">Copyright 2022 Avion LTD</p>
     </div>
 
 </body>
